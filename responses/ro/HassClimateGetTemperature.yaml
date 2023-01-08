@@ -3,4 +3,4 @@ responses:
   intents:
     HassClimateGetTemperature:
       success:
-        - "{{ state.state }} grade"
+        - "Sunt {{ state.state }} grade"
